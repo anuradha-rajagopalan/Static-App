@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Welcome to vite react Development
+          dev environment
         </p>
       </header>
     </div>
