@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing dependencies...
+      - npm install  # Install the dependencies listed in package.json
+
+  build:
+    commands:
+      - echo Building the project...
+      - npm run build  # Build the project (adjust if your build command is different)
+
+artifacts:
+  files:
+    - '**/*'  # Includes all files from the build output
+  base-directory: 'dist'  # This is where the built files are (adjust this if your output folder is different)
